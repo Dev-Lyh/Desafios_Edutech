@@ -21,4 +21,4 @@ while True:
     print("Até a próxima!!!")
     break
   else:
-    print("Escreve direito ae, na moral")
+    print("Respota inválida, digite novamente.")
