@@ -17,6 +17,8 @@ while True:
   if ( answer == "Sim" or answer == "sim" or answer == "s" or answer == "S"):
     result = generate()
     print("O resultado de seu dado foi: ",result)
-  else:
+  if ( answer == "Não" or answer == "não" or answer == "n" or answer == "N"):
     print("Até a próxima!!!")
     break
+  else:
+    print("Escreve direito ae, na moral")
