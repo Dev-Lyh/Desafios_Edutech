@@ -21,4 +21,4 @@ while True:
     print("Até a próxima!!!")
     break
   else:
-    print("Respota inválida, digite novamente.")
+    print("Respota inválida, digite novamente.") 
