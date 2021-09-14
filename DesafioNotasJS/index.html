@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Notas</title>
+</head>
+<body>
+  <h1>Desafio EduTech - Média Aritimética</h1>
+
+  
+  <form action="">
+    <h2 class="notaMedia"></h2>
+    <p>
+      <label for="">Primeira nota:</label>
+      <input id="nota1" value="1">
+    </p>
+    <br>
+    <p>
+      <label for="">Segunda nota:</label>
+      <input id="nota2">
+    </p>
+    <br>
+    <p>
+      <label for="">Terceira nota:</label>
+      <input id="nota3">
+    </p>
+    <br>
+    <p>
+      <label for="">Quarta nota:</label>
+      <input id="nota4">
+    </p>
+    <br>
+    <button type="submit" id="btn">Ver média</button>
+  </form>
+
+  <script>
+    const nota1 = document.getElementById("nota1")
+    const nota2 = document.getElementById("nota2")
+    const nota3 = document.getElementById("nota3")
+    const nota4 = document.getElementById("nota4")
+    const btn = document.getElementById("btn")
+    
+    if (nota1.value == 1) {
+      const notaTxt = document.querySelector(".notaMedia")
+      notaTxt.textContent = '1';
+    }
+  </script>
+
+</body>
+</html>
